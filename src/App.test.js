@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
+import { render } from '@testing-library/react';
+import App from './App';
 
-funtion App () {
-  return (<div className='App'></div>);
-}
-
-Export default App;
+test('renders learn react link', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
