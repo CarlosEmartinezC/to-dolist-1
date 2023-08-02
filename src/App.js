@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 
 import Container from './components/Container';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
