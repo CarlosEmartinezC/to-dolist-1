@@ -17,19 +17,20 @@ html {
   }
   
   .todo-list {
-    background: #fff;
+    background: #2c134b;
     font-size: 15px;
     max-width: 300px;
     margin: auto;
     margin-bottom: 20px;
     padding: 8px 16px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px rgba(247, 244, 244, 0.2);
+    color: #ddd;
   }
   
   
   /** BUTTONS*/
-  $colorPink: #e95678;
-  $colorPinkHover:#c23455;
+  $colorPink: #f50612;
+  $colorPinkHover:#f50fbc;
   
   $colorBlue: #25b0bc;
   $colorBlueHover:#166b72;
@@ -60,7 +61,7 @@ html {
   /** TODO*/
   .file-input{
     padding: 2px;
-    background: #f8f8f8;
+    background: #4f4e50;
   }
   
   .file-input > .text {
@@ -71,6 +72,7 @@ html {
     height: 46px;
     background:transparent;
     border: 0px solid;
+    color:white;
   }
   
   
